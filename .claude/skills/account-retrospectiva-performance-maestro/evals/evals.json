@@ -1,0 +1,58 @@
+{
+  "skill_name": "account-retrospectiva-performance-maestro",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Faça a retrospectiva de Q3 de um cliente de inside sales com Meta e Google. O CRM tem MQL, SQL, orçamento e venda, há oito vendedores e uma ferramenta de WhatsApp. O cliente ainda não possui break-even. Quero os rankings completos e uma base que prove cada conclusão.",
+      "expected_output": "Descobre fontes e definições, oferece criação do break-even, cruza mídia, CRM, vendedores e conversas, aplica horas úteis e cadência de 7+ follow-ups, e entrega Markdown auditável sem iniciar o plano do quarter.",
+      "files": [],
+      "assertions": [
+        "Usa first paid touch e preserva não atribuídos",
+        "Gera ranking por CPL, CPMQL, CPSQL e CPVenda com funil completo",
+        "Trata break-even ausente com gate humano",
+        "Gera base de conversas com links e evidências",
+        "Não cria plano, prioridade, prazo ou responsável"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Monte a retrospectiva de Q2 de um e-commerce com Meta, Google, GA4 e Shopify. Compare os canais, landing pages e produtos. Quero entender sessão, conversão, ticket, receita, ROAS, estoque e os criativos vencedores.",
+      "expected_output": "Separa tráfego pago e não pago, reconcilia NEKT, GA4 e loja, analisa produto e mídia em macro e micro, baixa criativos pelo NEKT e entrega achados com evidências.",
+      "files": [],
+      "assertions": [
+        "Não aplica taxas do tráfego pago às sessões orgânicas",
+        "Compara categoria, produto, SKU, conversão e ticket",
+        "Usa NEKT para assets de criativos",
+        "Expõe conflitos entre GA4, plataforma e mídia",
+        "Produz saída canônica em Markdown"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Preciso da retrospectiva trimestral de um cliente novo, mas não existe repositório e eu ainda não sei qual CRM ele usa nem como define MQL e SQL.",
+      "expected_output": "Varre primeiro as fontes disponíveis e depois conduz sabatina adaptativa, sem inventar definições ou bloquear módulos que possam seguir com lacunas declaradas.",
+      "files": [],
+      "assertions": [
+        "Pergunta apenas o que não puder ser descoberto",
+        "Valida modelo de negócio, período, CRM e definições do funil",
+        "Registra lacunas e conflitos",
+        "Não inventa MQL ou SQL",
+        "Mantém o pacote versionado"
+      ]
+    },
+    {
+      "id": 4,
+      "prompt": "Audite a qualidade comercial de Q3 para um inside sales. Temos CRM e WhatsApp, mas parte das conversas tem áudio sem transcrição e o cliente ainda não aprovou uma rubrica. Quero comparar os vendedores e entender se o atendimento explica as diferenças de venda.",
+      "expected_output": "Mede execução operacional objetivamente, mantém competência comercial provisória até calibrar a rubrica, separa resultado de funil, preserva conversas não localizadas ou não avaliáveis e sustenta cada classificação com evidência.",
+      "files": [],
+      "assertions": [
+        "Não cria nota única combinando execução, competência e resultado",
+        "Não penaliza conteúdo de áudio sem transcrição",
+        "Exige rubrica calibrada para score comercial definitivo",
+        "Usa SLA em horas úteis e 7 ou mais follow-ups em até 7 dias",
+        "Mantém resultado de funil como camada separada",
+        "Classifica criticidade P0 a P4 com evidência"
+      ]
+    }
+  ]
+}
